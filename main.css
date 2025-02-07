@@ -1,0 +1,27 @@
+html {
+  font-size: 22px;
+}
+
+body {
+  background-color: rgb(253, 205, 213);
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  margin: 0;
+}
+.text-container {
+  margin-top: calc(100vh / 4.5);
+}
+.envelope {
+  margin: 150px;
+  position: relative;
+  width: 280px;
+  height: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 150px;
+  background-color: #f9c5c8;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
