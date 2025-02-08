@@ -1,5 +1,3 @@
-const emojiList = ["❤", "♥", "💛"];
-
 function main() {
   const envelope = document.querySelector("#envelope");
   const open = document.querySelector("#open");
@@ -23,13 +21,13 @@ function main() {
 
     setTimeout(() => {
       envelopConfetti.addConfetti({
-        emojis: emojiList,
-        confettiNumber: 100,
-        emojiSize: 40,
+        emojis:  ["💗", "💕", "💟"],
+        confettiNumber: 50,
+        emojiSize: 30,
       });
     }, 300);
     globalConfetti.addConfetti({
-      emojis: emojiList,
+      emojis: ["🤍", "🌹", "🌷", "💐", "🌼", "⭐"],
       confettiNumber: 400,
       emojiSize: 40,
     });
