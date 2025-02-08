@@ -2,15 +2,34 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="author" content="Emma Snällman" />
-    <meta name="description" content="This page is a valentines day card." />
-    <title>Valentines day card</title>
-    <link rel="icon" href="loveletter-icon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="main.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Virtual Valentine's Day Card</title>
+    <script src="index.js"></script>
   </head>
 
   <body>
-    <h1 class="text-container">Will you be my Valentine?</h1>
-    <div class="envelope"></div>
+    <h1 class="valentine">Glad alla hjärtans dag! ❤️</h1>
+    <div class="envelope-wrapper">
+      <div id="envelope" class="close">
+        <div class="front flap"></div>
+        <div class="front pocket"></div>
+        <div class="letter">
+          <p class="words line1">H</p>
+          <p class="words line2"></p>
+          <p class="words line3"></p>
+          <p class="words line4"></p>
+        </div>
+        <div class="hearts">
+          <div class="heart a1"></div>
+          <div class="heart a2"></div>
+          <div class="heart a3"></div>
+        </div>
+      </div>
+    </div>
+    <div class="reset">
+      <button id="open">Open</button>
+      <button id="reset">Reset</button>
+    </div>
   </body>
 </html>
